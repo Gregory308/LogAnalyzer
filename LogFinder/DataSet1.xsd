@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Logs" msprop:Generator_TableClassName="LogsDataTable" msprop:Generator_TableVarName="tableLogs" msprop:Generator_TablePropName="Logs" msprop:Generator_RowDeletingName="LogsRowDeleting" msprop:Generator_RowChangingName="LogsRowChanging" msprop:Generator_RowEvHandlerName="LogsRowChangeEventHandler" msprop:Generator_RowDeletedName="LogsRowDeleted" msprop:Generator_UserTableName="Logs" msprop:Generator_RowChangedName="LogsRowChanged" msprop:Generator_RowEvArgName="LogsRowChangeEvent" msprop:Generator_RowClassName="LogsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="typeLog" msprop:Generator_ColumnVarNameInTable="columntypeLog" msprop:Generator_ColumnPropNameInRow="typeLog" msprop:Generator_ColumnPropNameInTable="typeLogColumn" msprop:Generator_UserColumnName="typeLog" type="xs:string" minOccurs="0" />
+              <xs:element name="packageLog" msprop:Generator_ColumnVarNameInTable="columnpackageLog" msprop:Generator_ColumnPropNameInRow="packageLog" msprop:Generator_ColumnPropNameInTable="packageLogColumn" msprop:Generator_UserColumnName="packageLog" type="xs:string" minOccurs="0" />
+              <xs:element name="infoLog" msprop:Generator_ColumnVarNameInTable="columninfoLog" msprop:Generator_ColumnPropNameInRow="infoLog" msprop:Generator_ColumnPropNameInTable="infoLogColumn" msprop:Generator_UserColumnName="infoLog" type="xs:string" minOccurs="0" />
+              <xs:element name="countLog" msprop:Generator_ColumnVarNameInTable="columncountLog" msprop:Generator_ColumnPropNameInRow="countLog" msprop:Generator_ColumnPropNameInTable="countLogColumn" msprop:Generator_UserColumnName="countLog" type="xs:string" minOccurs="0" />
+              <xs:element name="infoLogOld" msprop:Generator_ColumnVarNameInTable="columninfoLogOld" msprop:Generator_ColumnPropNameInRow="infoLogOld" msprop:Generator_ColumnPropNameInTable="infoLogOldColumn" msprop:Generator_UserColumnName="infoLogOld" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

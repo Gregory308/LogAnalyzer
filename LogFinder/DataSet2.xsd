@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet2" targetNamespace="http://tempuri.org/DataSet2.xsd" xmlns:mstns="http://tempuri.org/DataSet2.xsd" xmlns="http://tempuri.org/DataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet2" msprop:Generator_UserDSName="DataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="allLogs" msprop:Generator_TableClassName="allLogsDataTable" msprop:Generator_TableVarName="tableallLogs" msprop:Generator_TablePropName="allLogs" msprop:Generator_RowDeletingName="allLogsRowDeleting" msprop:Generator_RowChangingName="allLogsRowChanging" msprop:Generator_RowEvHandlerName="allLogsRowChangeEventHandler" msprop:Generator_RowDeletedName="allLogsRowDeleted" msprop:Generator_UserTableName="allLogs" msprop:Generator_RowChangedName="allLogsRowChanged" msprop:Generator_RowEvArgName="allLogsRowChangeEvent" msprop:Generator_RowClassName="allLogsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="dateLog" msprop:Generator_ColumnVarNameInTable="columndateLog" msprop:Generator_ColumnPropNameInRow="dateLog" msprop:Generator_ColumnPropNameInTable="dateLogColumn" msprop:Generator_UserColumnName="dateLog" type="xs:string" minOccurs="0" />
+              <xs:element name="timeLog" msprop:Generator_ColumnVarNameInTable="columntimeLog" msprop:Generator_ColumnPropNameInRow="timeLog" msprop:Generator_ColumnPropNameInTable="timeLogColumn" msprop:Generator_UserColumnName="timeLog" type="xs:string" minOccurs="0" />
+              <xs:element name="typeLog" msprop:Generator_ColumnVarNameInTable="columntypeLog" msprop:Generator_ColumnPropNameInRow="typeLog" msprop:Generator_ColumnPropNameInTable="typeLogColumn" msprop:Generator_UserColumnName="typeLog" type="xs:string" minOccurs="0" />
+              <xs:element name="packageLog" msprop:Generator_ColumnVarNameInTable="columnpackageLog" msprop:Generator_ColumnPropNameInRow="packageLog" msprop:Generator_ColumnPropNameInTable="packageLogColumn" msprop:Generator_UserColumnName="packageLog" type="xs:string" minOccurs="0" />
+              <xs:element name="infoLog" msprop:Generator_ColumnVarNameInTable="columninfoLog" msprop:Generator_ColumnPropNameInRow="infoLog" msprop:Generator_ColumnPropNameInTable="infoLogColumn" msprop:Generator_UserColumnName="infoLog" type="xs:string" minOccurs="0" />
+              <xs:element name="stackLog" msprop:Generator_ColumnVarNameInTable="columnstackLog" msprop:Generator_ColumnPropNameInRow="stackLog" msprop:Generator_ColumnPropNameInTable="stackLogColumn" msprop:Generator_UserColumnName="stackLog" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
